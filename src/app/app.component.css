@@ -1,0 +1,25 @@
+.app-navbar {
+  background: #45413e;
+  color: #d5dadd;
+}
+
+.app-navbar__logo {
+  margin-left: 15px;
+  color: #d5dadd;
+}
+
+.app-navbar__item {
+  color: #d5dadd;
+}
+
+.app-table {
+  margin: 20px;
+  width: calc(100% - 40px);
+  background: #fefeff;
+  color: #aab3bd;
+}
+
+.app-table__header {
+  background: #f9fafe;
+  color: #676c76;;
+}
