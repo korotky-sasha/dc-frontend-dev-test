@@ -10,9 +10,13 @@
   <script src="/assets/tinymce/js/tinymce/tinymce.min.js"></script>
   <script type="text/javascript">
     tinymce.init({
-      selector: '#mytextarea'
+      selector: '#tinymceeditor',
+      plugins: [
+        'lists link'
+      ],
+      toolbar:
+        'formatselect | fontsizeselect bold italic underline link bullist numlist'
     });
-    console.log('tinymce init');
   </script>
 </head>
 <body>

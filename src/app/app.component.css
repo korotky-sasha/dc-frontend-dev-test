@@ -12,9 +12,25 @@
   color: #d5dadd;
 }
 
-.app-table {
+.app-content {
   margin: 20px;
-  width: calc(100% - 40px);
+  padding: 10px;
+  background: #fefeff;
+}
+
+.app-top-panel {
+  padding: 0 12px 0 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.app-messages-title {
+  font-size: 24px;
+  color: #2f3742;
+}
+
+.app-table {
   background: #fefeff;
   color: #aab3bd;
 }
@@ -22,4 +38,26 @@
 .app-table__header {
   background: #f9fafe;
   color: #676c76;;
+}
+
+.app-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px;
+}
+
+.app-modal {
+  display: flex!important;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-modal-dialog {
+  max-width: unset;
+}
+
+.app-button {
+  border: none;
+  padding: 5px 10px;
 }
